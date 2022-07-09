@@ -1,0 +1,13 @@
+.wrapper {
+  background: linear-gradient(
+    89.32deg,
+    #00468a 13.18%,
+    rgba(0, 70, 149, 0.98) 44.49%,
+    rgba(0, 86, 175, 0.83) 88.32%
+  );
+  height: 100vh;
+}
+
+.background{
+    background: linear-gradient(90deg, #00365A 30.15%, #006CB5 90.84%);
+}
