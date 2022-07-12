@@ -5,12 +5,12 @@ import { BsInfoCircle } from "react-icons/bs";
 import { TbLogout } from "react-icons/tb";
 import Logo from "../../assets/logo.png";
 import "./dash.css";
-import image from "../../assets/logo.png";
+
 function Dashboard({ siginOUt }) {
   const [border, setBorder] = React.useState(1);
-  console.log(border);
+
   return (
-    <div>
+    <div className="h-full">
       <div className="flex items-start">
         <div className="w-[25%] bg-[#01336A] h-screen">
           <div className="flex flex-col items-center mt-10">
@@ -82,7 +82,6 @@ function Dashboard({ siginOUt }) {
 
 export default Dashboard;
 
-
-  // <div className="outlet-body pl-52 md:pl-64 lg:pl-[24rem] xl:pl-[29rem] w-screen h-screen outlet-media">
-  //   <Outlet />
-  // </div>;
+// <div className="outlet-body pl-52 md:pl-64 lg:pl-[24rem] xl:pl-[29rem] w-screen h-screen outlet-media">
+//   <Outlet />
+// </div>;
